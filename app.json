@@ -13,13 +13,18 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "android": {
+      "package": "app.web.prashoonapps.expogooglesignin",
+      "config": {
+        "googleSignIn": {
+          "apiKey": "AIzaSyBg8kzH4Tj1NrAzb6SQmvHmxvZ_87M7Bzo",
+          "certificateHash": "6E7CDD10D5E36CCCA012147D67C505D3244EF725"
+        }
+      },
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"

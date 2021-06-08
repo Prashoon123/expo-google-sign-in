@@ -45,6 +45,8 @@ export default function App() {
         "977031174034-el6lp58go1f8e6vq217tbkspadvjuqp7.apps.googleusercontent.com",
       androidClientId:
         "977031174034-dv2qribf7h37bq9n2pvdjf19ecngidcr.apps.googleusercontent.com",
+      androidStandaloneAppClientId:
+        "977031174034-ei8vq6v5sbmttp1b9cmbltim1r4i1pcm.apps.googleusercontent.com",
       scopes: ["profile", "email"],
     };
 
